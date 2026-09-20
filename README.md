@@ -1,4 +1,5 @@
 # Smart Power Grid Agent
+
 [![DOI](https://zenodo.org/badge/1235952727.svg)](https://doi.org/10.5281/zenodo.22860090)
 
 **GAT-PPO controller for constrained optimal power flow (OPF) on the Egypt-scaled 118-bus grid (`l2rpn_wcci_2022`).**
