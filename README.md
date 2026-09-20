@@ -1,4 +1,5 @@
 # Smart Power Grid Agent
+[![DOI](https://zenodo.org/badge/1235952727.svg)](https://doi.org/10.5281/zenodo.22860090)
 
 **GAT-PPO controller for constrained optimal power flow (OPF) on the Egypt-scaled 118-bus grid (`l2rpn_wcci_2022`).**
 
@@ -410,10 +411,6 @@ for each episode:
 ```
 
 **Model selection (early stopping).** From episode 100 onward and only once training reaches Wave III (episode 1000), each episode is scored with a combined metric. A new best score (improvement > 0.01) saves `./checkpoints/best_gat_ppo_egypt118.pth`; training stops if there is no improvement for 200 episodes.
-
-$$
-\text{score}=0.30\,\tfrac{\text{equity}}{100}+0.15\,\tfrac{\text{steps}}{\text{max steps}}-0.15\,\tfrac{g_V}{0.02}-0.05\,\tfrac{g_T}{0.01}-0.10\,\tfrac{g_G}{0.30}-0.10\,\tfrac{g_C}{0.70}-0.05\,\tfrac{\text{loss}}{\text{capacity}}-0.05\,\text{max loading}-0.05\,\tfrac{\#\text{violating buses}}{118}
-$$
 
 Periodic checkpoints are written to `./checkpoints/ckpt_step_{N:06d}.pth`. Training curves (reward, equity, $g_i$, $\lambda_i$, learning rate, losses) are stored in `output/output_csv/training_history.csv`.
 
