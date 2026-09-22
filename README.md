@@ -1,8 +1,20 @@
-# Smart Power Grid Agent
+# EGrid-118: Smart Power Grid Controller Agent and Energy Dispatcher
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22860091.svg)](https://doi.org/10.5281/zenodo.22860091)
+**Augmented Lagrangian OPF-RL with Graph Attention Networks & Proximal Policy Optimization**
 
-**GAT-PPO controller for constrained optimal power flow (OPF) on the Egypt-scaled 118-bus grid (`l2rpn_wcci_2022`).**
+
+
+## What the System Does
+
+EGrid-118 is a deep reinforcement learning controller that manages real-time power dispatch across a 118-
+bus electricity network. The agent continuously monitors every bus's voltage, line thermal loading, and generator
+states, then issues three types of actions every control step: active power redispatch (ΔP), voltage setpoint
+adjustment (V), and renewable curtailment fraction. It learns entirely through interaction, receiving reward signals
+that encode both engineering objectives (keep voltage within ±6%, avoid line overloads, minimize cost) and equity
+constraints (fair load distribution across buses).
+
+The system evolves through four phases of increasing sophistication, beginning with a simple reward-based
+baseline and culminating in a fully augmented Lagrangian formulation with spatially-aware graph neural networks
 
 ## Table of contents
 
