@@ -514,6 +514,7 @@ Recorded metrics per episode: total reward, Jain equity (%), steps survived, vol
 - `checkpoints/` — model checkpoints.
 - `output/` — generated plots with metrics and result files (`output/output_csv/` holds the CSV logs).
 - `references/` — references used in making the model solution and understanding the problem it solves, it may help anyone who wishes to be more educated on the matter
+- `docs/` — project documentation, including autograd computational graphs (docs/gat_model_arch.html).
 
 ---
 
