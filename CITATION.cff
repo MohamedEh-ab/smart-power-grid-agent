@@ -4,7 +4,7 @@ authors:
   - family-names: "Bishla"
     given-names: "Mohamed Ehab Ahmed"
     affiliation: "Faculty of Computers and Informatics, Suez Canal University"
-title: "EGrid-118: Smart Power Grid Controller Agent and Energy Dispatcher"
+title: "EGrid-118: Smart Power Grid Controller Agent"
 version: "1.0.0"
 doi: "10.5281/zenodo.22885476"
 date-released: 2026-05-11
