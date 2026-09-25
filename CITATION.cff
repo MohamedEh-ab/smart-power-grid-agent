@@ -6,7 +6,7 @@ authors:
     affiliation: "Faculty of Computers and Informatics, Suez Canal University"
 title: "EGrid-118: Smart Power Grid Controller Agent"
 version: "1.0.0"
-doi: "10.5281/zenodo.22925741"
+doi: "10.5281/zenodo.22860090"
 date-released: 2026-05-11
 repository-code: "https://github.com/MohamedEh-ab/smart-power-grid-agent"
 keywords:
