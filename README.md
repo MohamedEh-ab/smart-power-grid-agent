@@ -510,7 +510,6 @@ Recorded metrics per episode: total reward, Jain equity (%), steps survived, vol
 
 - `smart_grid_gatpo_lib.py` — reusable library implementation.
 - `Smart_Grid_Agent.ipynb` — full experiment notebook (method + training + evaluation).
-- `environment.yml` — (optional, see Section 1, Option B2) conda environment definition.
 - `env_needed_csv/egypt_power_plants_processed.csv` — plant capacity/source data used by the environment logic.
 - `checkpoints/` — model checkpoints.
 - `output/` — generated plots with metrics and result files (`output/output_csv/` holds the CSV logs).
