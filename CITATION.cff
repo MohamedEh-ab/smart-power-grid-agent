@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this software in your research, please cite it as below."
+authors:
+  - family-names: "Bishla"
+    given-names: "Mohamed Ehab Ahmed"
+    affiliation: "Faculty of Computers and Informatics, Suez Canal University"
+title: "EGrid-118: Smart Power Grid Controller Agent and Energy Dispatcher"
+version: "1.0.0"
+doi: "10.5281/zenodo.22885476"
+date-released: 2026-05-11
+repository-code: "https://github.com/MohamedEh-ab/smart-power-grid-agent"
+keywords:
+  - "reinforcement learning"
+  - "graph neural networks"
+  - "power systems"
+  - "optimal power flow"
+  - "proximal policy optimization"
+  - "augmented lagrangian"
