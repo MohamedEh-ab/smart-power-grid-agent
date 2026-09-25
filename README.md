@@ -2,7 +2,7 @@
 
 **Augmented Lagrangian OPF-RL with Graph Attention Networks & Proximal Policy Optimization**
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22885476.svg)](https://doi.org/10.5281/zenodo.22885476)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22925741.svg)](https://doi.org/10.5281/zenodo.22925741)
 
 ## What the System Does
 
