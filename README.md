@@ -513,7 +513,8 @@ Recorded metrics per episode: total reward, Jain equity (%), steps survived, vol
 - `environment.yml` — (optional, see Section 1, Option B2) conda environment definition.
 - `env_needed_csv/egypt_power_plants_processed.csv` — plant capacity/source data used by the environment logic.
 - `checkpoints/` — model checkpoints.
-- `output/` — generated plots and result files (`output/output_csv/` holds the CSV logs).
+- `output/` — generated plots with metrics and result files (`output/output_csv/` holds the CSV logs).
+- `references/` — references used in making the model solution and understanding the problem it solves, it may help anyone who wishes to be more educated on the matter
 
 ---
 
@@ -521,4 +522,5 @@ Recorded metrics per episode: total reward, Jain equity (%), steps survived, vol
 
 - The notebook is research-oriented and includes extensive diagnostics/plots.
 - The library file is better for integration into production-like Python workflows.
-- The agent is trained on the `l2rpn_wcci_2022` grid only; do not assume the results transfer to other grids or topologies without retraining.
+- This implementation is localized to the Egyptian power grid—mapping `l2rpn_wcci_2022` substations to real-world plant capacities in `env_needed_csv/` and modeling fuel disruption via the `suez_shock_pct` parameter.
+- The pipeline can be adapted to other regional research domains by replacing the capacity dataset in `env_needed_csv/` with similarly structured data and updating the `suez_shock_pct` parameter accordingly.
